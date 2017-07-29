@@ -55,7 +55,7 @@
     hooks:
     -   id: gofmt
     -   id: gobuild
--   repo: git://github.com/jordant/rubocop-pre-commit-hook
-    sha: HEAD
-    hooks:
-    -   id: check-rubocop
+#   repo: git://github.com/jordant/rubocop-pre-commit-hook
+#    sha: HEAD
+#    hooks:
+#    -   id: check-rubocop
