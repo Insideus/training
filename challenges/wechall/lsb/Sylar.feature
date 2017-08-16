@@ -6,9 +6,18 @@ Feature: Solve the challenge Training: LSB
     Given a URL with an Image in format PNG
     When I download the image
       And I see a hidden link
+
       And I download steganabara
       And I open the file
       And  I use bit mask option
       And I mixed all options with <<amplify>> checked
     Then I see the word
       And I solve the challenge
+
+      And I download steganabara 
+      And I open the file
+    Then  I use bit mask option
+        And I mixed all options with <<amplify>> checked
+        Then I see the word
+			And I solve the challenge
+
